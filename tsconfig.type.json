@@ -1,0 +1,31 @@
+{
+  "extends": "./tsconfig.json", // 拓展 tsconfig.json 的配置
+  "compilerOptions": {
+    /***
+     * 不要发出编译器输出文件，如 JavaScript 源代码、源代码映射或声明。
+     */
+    "noEmit": false,
+    /**
+     * 为项目中的每个 TypeScript 或 JavaScript 文件生成类型定义文件
+     */
+    "declaration": true,
+    /**
+     * 类型文件的导出目录
+     */
+    "declarationDir": "dist/types",
+    /**
+     * 为映射回原始源文件的文件生成源映射。
+     * 这将允许 VS Code 等编辑器在使用“转到定义”等功能时转到原始文件。
+     */
+    // "declarationMap": true
+    /**
+     * 仅发出文件;不发出文件。
+     */
+    "emitDeclarationOnly": true
+    /**
+     * 隔离模块
+     */
+    // "isolatedModules": false,
+    // // "outFile": "dist/yuelu-test"
+  }
+}
