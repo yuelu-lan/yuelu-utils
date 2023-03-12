@@ -1,7 +1,7 @@
 {
   "name": "yuelu-vite-test",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -40,10 +40,12 @@
   ],
   "main": "./dist/my-lib.umd.cjs",
   "module": "./dist/my-lib.js",
+  "types": "./dist/types/main.d.ts",
   "exports": {
     ".": {
       "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "require": "./dist/my-lib.umd.cjs",
+      "types": "./dist/types/main.d.ts"
     }
   }
 }
