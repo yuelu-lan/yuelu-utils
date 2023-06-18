@@ -14,6 +14,7 @@ export default defineConfig({
       fileName: 'my-lib',
       // formats: ['es', 'umd'], // 默认值
     },
+    // sourcemap: true, // 输出.map文件
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖
       external: ['react', 'react-dom'],
