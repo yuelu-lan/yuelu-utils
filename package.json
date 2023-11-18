@@ -1,5 +1,10 @@
 {
-  "name": "yuelu-vite-test",
+  "name": "yuelu-utils",
+  "description": "使用 vite 构建的函数工具库",
+  "keywords": [
+    "vite",
+    "function utils"
+  ],
   "private": false,
   "version": "0.0.3",
   "type": "module",
@@ -37,14 +42,10 @@
     "vite": "^4.5.0",
     "vite-plugin-dts": "^2.3.0"
   },
-  "description": "vite-test",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/again170/yuelu-vite-test.git"
   },
-  "keywords": [
-    "vite-test"
-  ],
   "author": "yuelu",
   "license": "ISC",
   "bugs": {
