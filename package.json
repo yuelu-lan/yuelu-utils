@@ -6,7 +6,7 @@
     "function utils"
   ],
   "private": false,
-  "version": "0.0.3",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -44,14 +44,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/again170/yuelu-vite-test.git"
+    "url": "git+https://github.com/yuelu-lan/yuelu-utils.git"
   },
   "author": "yuelu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/again170/yuelu-vite-test/issues"
+    "url": "https://github.com/yuelu-lan/yuelu-utils/issues"
   },
-  "homepage": "https://github.com/again170/yuelu-vite-test#readme",
+  "homepage": "https://github.com/yuelu-lan/yuelu-utils#readme",
   "files": [
     "dist"
   ],
